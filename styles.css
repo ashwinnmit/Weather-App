@@ -1,0 +1,84 @@
+.button{
+    position:absolute;
+    left : 0;
+    top : 10px;
+}
+body {
+    background-image: url("showerRain.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    height:93vh;
+    font-family: 'Roboto', sans-serif;
+}
+.text{
+    color : whitesmoke;
+}
+h5{
+    margin-top : 10px;
+
+}
+
+
+
+.popUp{
+/* From https://css.glass */
+background: rgba(255, 255, 255, 0.15);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(13.4px);
+-webkit-backdrop-filter: blur(13.4px);
+}
+
+
+.inp:focus, .inp{
+    border-width: 0px 0px 0px 0px;
+    background: rgba(255, 255, 255, 0.15);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(13.4px);
+-webkit-backdrop-filter: blur(13.4px);
+    color : whitesmoke;
+    font-size:1rem;
+}
+
+ul{
+    list-style:none;
+    margin-left : -40px;
+}
+
+
+.temp, .city , .svg{
+    display : inline-block;
+    margin-left : 0px;
+    margin-right : 10px;
+}
+
+
+.temp{
+    font-size:7rem;
+}
+
+
+.heading{
+    margin-top : 60px;
+    margin-bottom : 0px;
+}
+
+.info{
+    margin-top : 50vh;
+}
+
+h3{
+    font-size:2rem;
+}
+
+
+.value{
+    margin-left :20px;
+}
+
+.key, .value{
+    display : inline-block;
+}
+
+.submit{
+    margin : 0 auto;
+}
